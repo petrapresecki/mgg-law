@@ -68,7 +68,7 @@ export default function Home() {
           </div>
           <div className="about-sidebar" style={{ width: '352px', flexShrink: 0, display: 'flex', flexDirection: 'column' }}>
             <div style={{ height: '420px', marginBottom: '44px', position: 'relative', overflow: 'hidden' }}>
-              <img src="/assets/IMG_0482.jpg" alt="MGG Law ured" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center', display: 'block' }} />
+              <img src="/assets/IMG_0475.jpg" alt="MGG Law ured" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 15%', display: 'block' }} />
               <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(26,17,8,.28) 0%, transparent 50%)' }} />
               <div style={{ position: 'absolute', bottom: '14px', left: '14px' }}>
                 <p style={{ fontSize: '9px', color: 'rgba(240,234,225,.38)', letterSpacing: '.14em', textTransform: 'uppercase' }}>{h.office_label}</p>

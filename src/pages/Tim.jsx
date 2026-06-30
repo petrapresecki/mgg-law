@@ -152,6 +152,7 @@ export default function Tim() {
           <p style={{ fontSize: '15px', lineHeight: 1.82, color: '#7A6050', maxWidth: '480px' }}>{t.hero_p}</p>
         </div>
         <div className="hero-image" style={{ width: '540px', flexShrink: 0, background: 'linear-gradient(168deg,#BEB0A0 0%,#A89080 28%,#907A6C 58%,#AFA090 100%)', position: 'relative', overflow: 'hidden' }}>
+          <img src="/assets/IMG_0482.jpg" alt="MGG Law ured" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center', display: 'block' }} />
           <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top,rgba(26,17,8,.32) 0%,transparent 55%)' }} />
           <div style={{ position: 'absolute', bottom: '28px', left: '28px' }}>
             <p style={{ fontSize: '9px', fontWeight: 600, color: 'rgba(240,234,225,.4)', letterSpacing: '.18em', textTransform: 'uppercase' }}>{t.office_tag}</p>

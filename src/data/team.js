@@ -3,9 +3,9 @@ export const team = {
     {
       name: 'dr. sc. Sandra Marković',
       initials: 'SM',
-      role: 'Odvjetnica – Partner-utemeljiteljica',
+      role: 'Odvjetnica – Partner',
       specialty: 'Ustavno pravo i ljudska prava',
-      shortBio: 'Specijalistica iz oblasti ustavnog prava i ljudskih prava s dvadesetjednogodišnjim iskustvom rada na Ustavnom sudu RH.',
+      shortBio: 'dr. sc. Sandra Marković je specijalistica iz oblasti ustavnog prava i ljudskih prava.',
       bio: [
         'Dr. sc. Sandra Marković je specijalistica iz oblasti ustavnog prava i ljudskih prava. Sandra ima jedinstveno dvadesetjednogodišnje iskustvo rada na Ustavnom sudu Republike Hrvatske kao savjetnica (viša ustavnosudska savjetnica-mentorica) i voditeljica Savjetničke službe Ustavnog suda Republike Hrvatske.',
         'Paralelno, od 2013. godine, Sandra je vanjska predavačica na katedri za ustavno pravo Pravnog fakulteta, Sveučilišta u Zagrebu, u znanstvenom zvanju, gdje predaje predmete ustavnog prava.',
@@ -32,7 +32,7 @@ export const team = {
       academic: [
         { years: '2013. – nadalje', position: 'Sveučilište u Zagrebu, Pravni fakultet – vanjska suradnica-predavačica na Katedri za ustavno pravo' },
         { years: '', position: 'Sveučilište u Zagrebu, Pravni Fakultet – znanstvena suradnica na katedri za ustavno pravo' },
-        { years: '', position: 'Veleučilište Baltazar Zaprešić – predavačica na diplomskom studiju Menadžment javnog sektora' },
+        { years: '', position: 'Veleučilište Baltazar Zaprešić – predavačica na diplomskom studiju Menadžment javnog sektora, kolegiji "Europski upravni prostor i upravno pravo" i "Javne politike i pravna regulacija"' },
         { years: '2013.–2016.', position: 'Visoka policijska škola Zagreb – predavačica na kolegiju "Ustavno pravo"' },
       ],
       education: [
@@ -40,6 +40,7 @@ export const team = {
         'Harvard University, The John F. Kennedy School of Government – Executive program Leaders in Development',
         'Ministarstvo pravosuđa – pravosudni ispit',
         'Sveučilište u Zagrebu, Pravni fakultet – diplomski studij',
+        'Sandra je pohađala klasični smjer osnovne škole "S. S. Kranjčević" u Zagrebu te srednju školu, Centar za upravu i pravosuđe, tada smješten u zgradi gimnazije na Rooseveltovom trgu 5 u Zagrebu.',
       ],
       memberships: [
         'Hrvatska odvjetnička komora',
@@ -55,9 +56,9 @@ export const team = {
     {
       name: 'Sidonija Grbavac',
       initials: 'SG',
-      role: 'Odvjetnica – Partner-utemeljiteljica',
+      role: 'Odvjetnica – Partner',
       specialty: 'Građansko pravo, naknade štete i obiteljsko pravo',
-      shortBio: 'Odvjetnica-parničarka s preko dvadeset godina iskustva. Specijalizirana za naknadu štete, obiteljsko i nasljedno pravo.',
+      shortBio: 'Sidonija je jedna od osnivačica Zajedničkog odvjetničkog ureda dr. sc. Marković, Grbavac i Gliha.',
       bio: [
         'Sidonija je jedna od osnivačica Zajedničkog odvjetničkog ureda dr. sc. Sandra Marković, Sidonija Grbavac i dr. sc. Dino Gliha. Sidonija je izvrsna odvjetnica-parničarka, s preko dvadeset godina aktivnog odvjetničkog iskustva zastupanja na sudovima. Odvjetništvo je prakticirala u jednom od najrespektabilnijih odvjetničkih društava u području civilnog prava, naknade štete i prava osiguranja, u Republici Hrvatskoj, sve do 2018. godine, kada je sa Sandrom i Dinom pokrenula vlastiti ured.',
         'Sidonijino područje profesionalnog interesa i dugogodišnje prakse je građansko pravo, prvenstveno parnice radi naknade štete općenito, kao i pitanja proizašla iz područja osiguranja, zemljišnoknjižno pravo, obiteljsko pravo i nasljedno pravo.',
@@ -75,7 +76,7 @@ export const team = {
         { years: '1997.–2000.', position: 'Odvjetnički ured Ljubica Jukić-Radnić – odvjetnička vježbenica' },
       ],
       education: [
-        'Sveučilište u Zagrebu, Pravni fakultet, doktorski studij (PhD), smjer: građanskopravne i obiteljskopravne znanosti',
+        'Sveučilište u Zagrebu, Pravni fakultet, doktorski studij (PhD), smjer: građanskopravne i obiteljskopravna znanost',
         'Ministarstvo pravosuđa – pravosudni ispit',
         'Sveučilište u Zagrebu, Pravni fakultet – diplomski studij (dipl. iur.)',
       ],
@@ -93,7 +94,7 @@ export const team = {
       initials: 'DG',
       role: 'Odvjetnik – Partner',
       specialty: 'Intelektualno vlasništvo i AI pravo',
-      shortBio: 'Odvjetnik i patentni zastupnik specijaliziran za intelektualno vlasništvo, AI pravo i komercijalizaciju inovacija. EUIPO IP Scan stručnjak.',
+      shortBio: 'Dino Gliha je jedan od osnivača odvjetničkog ureda dr. sc. Marković, Grbavac i Gliha.',
       bio: [
         'Dr. sc. Dino Gliha diplomirao je pravo (2016.) i doktorirao (2022.) na Pravnom fakultetu Sveučilišta u Zagrebu. U sklopu doktorskog istraživanja boravio je na Max Planck institutu za inovacije i tržišno natjecanje u Münchenu (2020.–2021.). Također je završio MBA program na poslovnoj školi thePowerMBA u Madridu u suradnji s Harvard Business Publishingom (2021.) te poslijediplomski studij Artificial Intelligence for Business na Saïd Business Schoolu Sveučilišta u Oxfordu (2025.). Tijekom akademskog obrazovanja Dino je dobitnik brojnih stipendija i priznanja za akademsku i sportsku izvrsnost.',
         'Dino je konzultant i pravni zastupnik specijaliziran za prava intelektualnog vlasništva te razvoj kreativnih i inovativnih projekata. U svom radu primjenjuje holistički, interdisciplinarni pristup koji objedinjuje pravnu i stratešku perspektivu. Posebno se usredotočuje na dizajn projekata temeljenih na pravima intelektualnog vlasništva, vrhunske tehnologije i komercijalizaciju inovacija proizašlih iz istraživanja.',
@@ -108,10 +109,15 @@ export const team = {
       career: [
         { years: '2019. – nadalje', position: 'Zajednički odvjetnički ured dr. sc. Sandra Marković, Sidonija Grbavac i dr. sc. Dino Gliha – odvjetnik, partner' },
         { years: '2021. – nadalje', position: 'Ovlašteni patentni zastupnik' },
-        { years: '2019. – nadalje', position: 'Federation of Integrated Conflict Management (FICM-MCN) – Accredited Dispute Resolution Professional' },
-        { years: '2018. – nadalje', position: 'CARNET Registar .hr domena – arbitar za rješavanje sporova' },
+        { years: '2019. – nadalje', position: 'Federation of Integrated Conflict Management (FICM-MCN) – Accredited Dispute Resolution Professional (Arbitrator, Mediator)' },
+        { years: '2018. – nadalje', position: 'CARNET Registar .hr domena – arbitar za rješavanje sporova između korisnika domena i trećih osoba o pravu na korištenje određene domene unutar vršne HR-domene' },
         { years: '2018.–2019.', position: 'Zajednički odvjetnički ured dr. sc. Sandra Marković i Sidonija Grbavac – odvjetnički vježbenik s partnerskim ovlaštenjima' },
+        { years: '2018.', position: 'Odvjetničko društvo Čačić & partneri – odvjetnički vježbenik' },
+        { years: '2016.', position: 'Odvjetnički ured Albina Dlačić – studentska praksa' },
         { years: '2015.–2016.', position: 'Pravni fakultet, Sveučilište u Zagrebu – demonstrator, katedra za građansko procesno pravo' },
+        { years: '2014.–2015.', position: 'Pravni fakultet, Sveučilište u Zagrebu – demonstrator, katedra za europsko javno pravo' },
+        { years: '2014.–2015.', position: 'Pravni fakultet, Sveučilište u Zagrebu – demonstrator, katedra za kazneno procesno pravo' },
+        { years: '2012.–2014.', position: 'Pravni fakultet, Sveučilište u Zagrebu – demonstrator, katedra za rimsko pravo' },
       ],
       certifications: [
         '2021. – Državni zavod za intelektualno vlasništvo: stručni ispit za patentnog zastupnika',
@@ -119,19 +125,23 @@ export const team = {
         '2018. – Ministarstvo pravosuđa: Pravosudni ispit',
       ],
       education: [
-        '2016.–2022., Pravni fakultet, Sveučilište u Zagrebu – doktorski studij (dr. sc.); disertacija: "The Copyright-Competition Interaction within the EU", magna cum laude',
+        '2016.–2022., Pravni fakultet, Sveučilište u Zagrebu – doktorski studij (dr. sc.), smjer: Pravo društava i trgovačko pravo, doktorska disertacija: "The Copyright-Competition Interaction within the EU", magna cum laude',
         '2025., Saïd Business School, Sveučilište u Oxfordu – poslijediplomski studij Artificial Intelligence for Business',
-        '2020.–2021., ThePower Business School (TPMBA Global Harvard) – Master of Business Administration (MBA)',
+        '2020.–2021., ThePower Business School, TPMBA Global Harvard – Master of Business Administration (MBA), Business Administration and Management, General',
         '2011.–2016., Pravni fakultet, Sveučilište u Zagrebu – integrirani prediplomski i diplomski studij (mag. iur.), summa cum laude',
       ],
       awards: [
-        'Max Planck Institute for Innovation and Competition Scholarship Grant – 2020.–2021.',
-        'ERA-CCBE Young Lawyers Contest – Best team award and Moot Court finalist – 2018.',
-        'Stipendija Zaklade "Zlatko Crnić" za postdiplomske studije – 2016., 2017., 2018., 2019., 2020., 2021.',
-        'Nagrada fakultetskog vijeća za najboljeg studenta – 2016.',
-        'Moot Court Croatia the Best Team Award – 2016.',
-        'Rektorova nagrada – 2014., 2015.',
-        'Dekanova nagrada – 2013., 2017.',
+        'Max Planck Institute for Innovation and Competition Scholarship Grant – 2020-2021',
+        'ERA-CCBE Young Lawyers Contest Defence of teams\' written reports and Negotiation exercise the Best team award and Moot Court finalist – 2018',
+        'Stipendija Zaklade "Zlatko Crnić" za postdiplomske studije – 2016, 2017, 2018, 2019, 2020, 2021',
+        'Nagrada fakultetskog vijeća za najboljeg studenta – 2016',
+        'Moot Court Croatia the Best Team Award – 2016',
+        'Rektorova nagrada – 2014, 2015',
+        'Dekanova nagrada – 2013, 2017',
+        'Stipendija Zaklade "Zlatko Crnić" za diplomske studije – 2012, 2013, 2014, 2015',
+        'Stipendija Sveučilišta u Zagrebu – 2013, 2014, 2015',
+        'Nagrada fakultetskog vijeća za studenta godine – 2012, 2013, 2014, 2015',
+        'Državna stipendija Republike Hrvatske – 2011',
       ],
       memberships: [
         'Hrvatsko društvo za autorsko pravo – ALAI',
@@ -149,7 +159,7 @@ export const team = {
       initials: 'DV',
       role: 'Odvjetnik – Partner',
       specialty: 'Građansko, trgovačko i upravno pravo',
-      shortBio: 'Odvjetnik specijaliziran za građansko, trgovačko i upravno pravo. Aktivno radi na predmetima iz područja poreznog prava, javne nabave i EU-fondova.',
+      shortBio: 'Domagoj je odvjetnik i partner u Zajedničkom odvjetničkom uredu dr. sc. Sandra Marković, Sidonija Grbavac i dr. sc. Dino Gliha.',
       bio: [
         'Domagoj je diplomirao na Pravnom fakultetu Sveučilišta u Zagrebu u svibnju 2021. godine na temu „Pravni status umjetne inteligencije – aktualna pitanja i dvojbe" te je stekao titulu magistra prava (mag. iur.). Tijekom studiranja na Pravnom fakultetu započeo je s radom u MGG odvjetničkom uredu kao student te je nastavio s radom u uredu nakon diplomiranja kao odvjetnički vježbenik.',
         'Domagoj je završio program usavršavanja iz područja javne nabave „Javna nabava i provedba projekata financiranih iz ESI fondova" održanog u rujnu 2021. godine.',
@@ -175,7 +185,7 @@ export const team = {
       initials: 'SK',
       role: 'Odvjetnica',
       specialty: 'Pravo društava, ugovorno i nasljedno pravo',
-      shortBio: 'Odvjetnica s dugogodišnjim iskustvom u javnom bilježništvu i sudstvu. Specijalizirana za pravo društava, ugovorno i nasljedno pravo.',
+      shortBio: 'Sanja je odvjetnica u Zajedničkom odvjetničkom uredu dr. sc. Sandra Marković, Sidonija Grbavac i dr. sc. Dino Gliha, s dugogodišnjim iskustvom rada u javnom bilježništvu i određenim iskustvom rada na sudu.',
       bio: [
         'Sanja je odvjetnica u Zajedničkom odvjetničkom uredu dr. sc. Sandra Marković, Sidonija Grbavac i dr. sc. Dino Gliha, s dugogodišnjim iskustvom rada u javnom bilježništvu i određenim iskustvom na sudu.',
         'U tijeku svoje karijere, Sanja je kroz bilježništvo, odvjetništvo i sudstvo radila na poslovima u području prava društava, ugovornog prava te nasljednog prava.',
@@ -203,7 +213,7 @@ export const team = {
       initials: 'AŽ',
       role: 'Odvjetnička vježbenica s položenim pravosudnim ispitom',
       specialty: 'Ljudska prava i pravo EU',
-      shortBio: 'Odvjetnička vježbenica s položenim pravosudnim ispitom. Usmjerena prema zaštiti ljudskih prava, pravu EU i civilnom pravu.',
+      shortBio: 'Ana je odvjetnička vježbenica u Zajedničkom odvjetničkom uredu dr. sc. Sandra Marković, Sidonija Grbavac i dr. sc. Dino Gliha.',
       bio: [
         'Ana Žagar diplomirala je na Pravnom fakultetu Sveučilišta u Zagrebu u travnju 2023. godine s temom diplomskog rada „Upotreba tradicionalnih pravnih argumenata za opravdanje tumačenja i primjene članka 8. Europske konvencije za zaštitu ljudskih prava i temeljnih sloboda u praksi Europskog suda za ljudska prava".',
         'Zajedničkom odvjetničkom uredu dr. sc. Sandra Marković, Sidonija Grbavac i dr. sc. Dino Gliha pridružila se u srpnju 2023. na poziciji odvjetničke vježbenice. Položila je pravosudni ispit u svibnju 2025.',
@@ -235,9 +245,9 @@ export const team = {
     {
       name: 'dr. sc. Sandra Marković',
       initials: 'SM',
-      role: 'Attorney – Founding Partner',
+      role: 'Attorney – Partner',
       specialty: 'Constitutional Law and Human Rights',
-      shortBio: 'Specialist in constitutional law and human rights with twenty-one years of experience at the Constitutional Court of the Republic of Croatia.',
+      shortBio: 'Dr. sc. Sandra Marković is a specialist in constitutional law and human rights.',
       bio: [
         'Dr. sc. Sandra Marković is a specialist in constitutional law and human rights. Sandra holds a unique twenty-one years of experience at the Constitutional Court of the Republic of Croatia as an adviser (Senior Constitutional Court Adviser-Mentor) and Head of the Advisory Service of the Constitutional Court of the Republic of Croatia.',
         'Concurrently, since 2013, Sandra has been an external lecturer at the Chair of Constitutional Law at the Faculty of Law, University of Zagreb, in a scientific position, where she teaches courses in constitutional law.',
@@ -272,6 +282,7 @@ export const team = {
         'Harvard University, The John F. Kennedy School of Government – Executive programme Leaders in Development',
         'Ministry of Justice – bar examination',
         'University of Zagreb, Faculty of Law – undergraduate and graduate law programme',
+        'Sandra attended the classical stream of primary school "S. S. Kranjčević" in Zagreb and secondary school, Centre for Administration and Justice, then located in the gymnasium building at Rooseveltov trg 5 in Zagreb.',
       ],
       memberships: [
         'Croatian Bar Association',
@@ -287,9 +298,9 @@ export const team = {
     {
       name: 'Sidonija Grbavac',
       initials: 'SG',
-      role: 'Attorney – Founding Partner',
+      role: 'Attorney – Partner',
       specialty: 'Civil Law, Damages and Family Law',
-      shortBio: 'Litigation attorney with over twenty years of experience. Specialised in compensation for damages, family law and inheritance law.',
+      shortBio: 'Sidonija is one of the founding partners of the Joint Law Office of dr. sc. Marković, Grbavac and Gliha.',
       bio: [
         'Sidonija is one of the founding partners of the Joint Law Office of dr. sc. Sandra Marković, Sidonija Grbavac and dr. sc. Dino Gliha. Sidonija is an outstanding litigation attorney with over twenty years of active legal experience representing clients in court. She practised law at one of the most respected law firms in the area of civil law, compensation for damages and insurance law in the Republic of Croatia, until 2018, when she founded her own firm together with Sandra and Dino.',
         'Sidonija\'s area of professional interest and long-standing practice is civil law, primarily litigation involving claims for damages in general, as well as matters arising in the field of insurance, land registry law, family law and inheritance law.',
@@ -325,7 +336,7 @@ export const team = {
       initials: 'DG',
       role: 'Attorney – Partner',
       specialty: 'Intellectual Property and AI Law',
-      shortBio: 'Attorney and patent agent specialised in intellectual property, AI law and the commercialisation of innovations. EUIPO IP Scan expert.',
+      shortBio: 'Dino Gliha is one of the founding partners of the Law Office of dr. sc. Marković, Grbavac and Gliha.',
       bio: [
         'Dr. sc. Dino Gliha graduated in law (2016) and obtained his doctorate (2022) at the Faculty of Law, University of Zagreb. As part of his doctoral research, he was a visiting researcher at the Max Planck Institute for Innovation and Competition in Munich (2020–2021). He also completed an MBA programme at the thePowerMBA Business School in Madrid in collaboration with Harvard Business Publishing (2021) and a postgraduate programme in Artificial Intelligence for Business at Saïd Business School, University of Oxford (2025). During his academic studies, Dino received numerous scholarships and awards for academic and sporting excellence.',
         'Dino is a consultant and legal representative specialising in intellectual property rights and the development of creative and innovative projects. In his work he applies a holistic, interdisciplinary approach that combines legal and strategic perspectives. He focuses particularly on designing projects based on intellectual property rights, cutting-edge technology and the commercialisation of research-driven innovations.',
@@ -340,10 +351,15 @@ export const team = {
       career: [
         { years: '2019 – present', position: 'Joint Law Office of dr. sc. Sandra Marković, Sidonija Grbavac and dr. sc. Dino Gliha – attorney, partner' },
         { years: '2021 – present', position: 'Registered patent agent' },
-        { years: '2019 – present', position: 'Federation of Integrated Conflict Management (FICM-MCN) – Accredited Dispute Resolution Professional' },
-        { years: '2018 – present', position: 'CARNET .hr Domain Register – dispute resolution arbitrator' },
+        { years: '2019 – present', position: 'Federation of Integrated Conflict Management (FICM-MCN) – Accredited Dispute Resolution Professional (Arbitrator, Mediator)' },
+        { years: '2018 – present', position: 'CARNET .hr Domain Register – arbitrator for resolving disputes between domain users and third parties regarding the right to use a specific domain within the .hr top-level domain' },
         { years: '2018–2019', position: 'Joint Law Office of dr. sc. Sandra Marković and Sidonija Grbavac – trainee lawyer with partner authorisations' },
+        { years: '2018', position: 'Law Firm Čačić & partneri – trainee lawyer' },
+        { years: '2016', position: 'Law Office Albina Dlačić – student internship' },
         { years: '2015–2016', position: 'Faculty of Law, University of Zagreb – demonstrator, Chair of Civil Procedural Law' },
+        { years: '2014–2015', position: 'Faculty of Law, University of Zagreb – demonstrator, Chair of European Public Law' },
+        { years: '2014–2015', position: 'Faculty of Law, University of Zagreb – demonstrator, Chair of Criminal Procedural Law' },
+        { years: '2012–2014', position: 'Faculty of Law, University of Zagreb – demonstrator, Chair of Roman Law' },
       ],
       certifications: [
         '2021 – State Intellectual Property Office: professional examination for patent agent',
@@ -351,19 +367,23 @@ export const team = {
         '2018 – Ministry of Justice: bar examination',
       ],
       education: [
-        '2016–2022, Faculty of Law, University of Zagreb – doctoral studies (dr. sc.); dissertation: "The Copyright-Competition Interaction within the EU", magna cum laude',
+        '2016–2022, Faculty of Law, University of Zagreb – doctoral studies (dr. sc.), programme: Company Law and Commercial Law, doctoral dissertation: "The Copyright-Competition Interaction within the EU", magna cum laude',
         '2025, Saïd Business School, University of Oxford – postgraduate programme in Artificial Intelligence for Business',
-        '2020–2021, ThePower Business School (TPMBA Global Harvard) – Master of Business Administration (MBA)',
+        '2020–2021, ThePower Business School, TPMBA Global Harvard – Master of Business Administration (MBA), Business Administration and Management, General',
         '2011–2016, Faculty of Law, University of Zagreb – integrated undergraduate and graduate programme (mag. iur.), summa cum laude',
       ],
       awards: [
-        'Max Planck Institute for Innovation and Competition Scholarship Grant – 2020–2021',
-        'ERA-CCBE Young Lawyers Contest – Best team award and Moot Court finalist – 2018',
+        'Max Planck Institute for Innovation and Competition Scholarship Grant – 2020-2021',
+        'ERA-CCBE Young Lawyers Contest Defence of teams\' written reports and Negotiation exercise the Best team award and Moot Court finalist – 2018',
         '"Zlatko Crnić" Foundation Scholarship for Postgraduate Studies – 2016, 2017, 2018, 2019, 2020, 2021',
         'Faculty Council Award for the best student – 2016',
         'Moot Court Croatia the Best Team Award – 2016',
         'Rector\'s Award – 2014, 2015',
         'Dean\'s Award – 2013, 2017',
+        '"Zlatko Crnić" Foundation Scholarship for Undergraduate Studies – 2012, 2013, 2014, 2015',
+        'University of Zagreb Scholarship – 2013, 2014, 2015',
+        'Faculty Council Award for Student of the Year – 2012, 2013, 2014, 2015',
+        'State Scholarship of the Republic of Croatia – 2011',
       ],
       memberships: [
         'Croatian Copyright Society – ALAI',
@@ -381,7 +401,7 @@ export const team = {
       initials: 'DV',
       role: 'Attorney – Partner',
       specialty: 'Civil, Commercial and Administrative Law',
-      shortBio: 'Attorney specialised in civil, commercial and administrative law. Actively working on matters in the fields of tax law, public procurement and EU funds.',
+      shortBio: 'Domagoj is an attorney and partner at the Joint Law Office of dr. sc. Sandra Marković, Sidonija Grbavac and dr. sc. Dino Gliha.',
       bio: [
         'Domagoj graduated from the Faculty of Law, University of Zagreb, in May 2021, with a thesis entitled "The Legal Status of Artificial Intelligence – Current Issues and Dilemmas", and was awarded the title of Master of Law (mag. iur.). During his studies at the Faculty of Law he began working at MGG Law Office as a student and continued after graduating as a trainee lawyer.',
         'Domagoj completed a professional development programme in the field of public procurement: "Public Procurement and the Implementation of Projects Financed from ESI Funds", held in September 2021.',
@@ -407,7 +427,7 @@ export const team = {
       initials: 'SK',
       role: 'Attorney',
       specialty: 'Company Law, Contract Law and Inheritance Law',
-      shortBio: 'Attorney with long-standing experience in public notary practice and the judiciary. Specialised in company law, contract law and inheritance law.',
+      shortBio: 'Sanja is an attorney at the Joint Law Office of dr. sc. Sandra Marković, Sidonija Grbavac and dr. sc. Dino Gliha, with long-standing experience in public notary work and certain experience in the courts.',
       bio: [
         'Sanja is an attorney at the Joint Law Office of dr. sc. Sandra Marković, Sidonija Grbavac and dr. sc. Dino Gliha, with extensive experience in public notary work and certain experience in the courts.',
         'Throughout her career, Sanja has worked through the notarial profession, legal practice and the judiciary on matters in the field of company law, contract law and inheritance law.',
@@ -435,7 +455,7 @@ export const team = {
       initials: 'AŽ',
       role: 'Trainee Lawyer – Bar Exam Passed',
       specialty: 'Human Rights and EU Law',
-      shortBio: 'Trainee lawyer with a passed bar examination. Focused on human rights protection, EU law and civil law.',
+      shortBio: 'Ana is a trainee lawyer at the Joint Law Office of dr. sc. Sandra Marković, Sidonija Grbavac and dr. sc. Dino Gliha.',
       bio: [
         'Ana Žagar graduated from the Faculty of Law, University of Zagreb, in April 2023, with a thesis entitled "The Use of Traditional Legal Arguments to Justify the Interpretation and Application of Article 8 of the European Convention on Human Rights and Fundamental Freedoms in the Case Law of the European Court of Human Rights".',
         'She joined the Joint Law Office of dr. sc. Sandra Marković, Sidonija Grbavac and dr. sc. Dino Gliha in July 2023 in the position of trainee lawyer. She passed the bar examination in May 2025.',
