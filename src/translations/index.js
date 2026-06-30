@@ -67,8 +67,8 @@ export const t = {
     },
     footer: {
       lang_label: 'Jezik',
-      lang_en: 'English (UK)',
-      lang_hr: 'Hrvatski',
+      lang_en: 'EN',
+      lang_hr: 'HR',
       contact_label: 'Kontakt',
       copyright: '© 2026 MGG Law Group. Sva prava pridržana.',
       location: 'Zagreb · Hrvatska',
@@ -147,8 +147,8 @@ export const t = {
     },
     footer: {
       lang_label: 'Language',
-      lang_en: 'English (UK)',
-      lang_hr: 'Croatian',
+      lang_en: 'EN',
+      lang_hr: 'HR',
       contact_label: 'Contact',
       copyright: '© 2026 MGG Law Group. All rights reserved.',
       location: 'Zagreb · Croatia',

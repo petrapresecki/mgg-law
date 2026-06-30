@@ -18,8 +18,8 @@ export const team = {
         'Sandra je zamjenica predsjednika Hrvatskog društva za građanskopravne znanosti i praksu.',
       ],
       works: [
-        { title: 'dr. sc. Sandra Marković radovi – Hrvatski', url: 'https://mgg-law.eu/' },
-        { title: 'dr. sc. Sandra Marković – published scientific papers – English', url: 'https://mgg-law.eu/' },
+        { title: 'dr. sc. Sandra Marković radovi – Hrvatski', url: 'https://mgg-law.eu/wp-content/uploads/2024/07/dr.-sc.-Sandra-Markovic-radovi.pdf' },
+        { title: 'dr. sc. Sandra Marković – published scientific papers – English', url: 'https://mgg-law.eu/wp-content/uploads/2024/07/dr.-sc.-Sandra-Markovic-published-scientific-papers.pdf' },
       ],
       career: [
         { years: '2019. – nadalje', position: 'Zajednički odvjetnički ured dr. sc. Sandra Marković, Sidonija Grbavac i dr. sc. Dino Gliha – odvjetnica, partner' },
@@ -104,7 +104,7 @@ export const team = {
         'Aktivni je član brojnih stručnih i akademskih udruženja, uključujući Association littéraire et artistique internationale (ALAI), Oxford Artificial Intelligence Society, Oxford Union Society, Hrvatsku odvjetničku komoru i Hrvatsku komoru patentnih i žigovnih zastupnika.',
       ],
       works: [
-        { title: 'dr. sc. Dino Gliha radovi', url: 'https://mgg-law.eu/' },
+        { title: 'dr. sc. Dino Gliha radovi', url: 'https://mgg-law.eu/wp-content/uploads/2024/07/dr.-sc.-Dino-Gliha-radovi.pdf' },
       ],
       career: [
         { years: '2019. – nadalje', position: 'Zajednički odvjetnički ured dr. sc. Sandra Marković, Sidonija Grbavac i dr. sc. Dino Gliha – odvjetnik, partner' },
@@ -260,8 +260,8 @@ export const team = {
         'Sandra is Vice-President of the Croatian Society for Civil Law Sciences and Practice.',
       ],
       works: [
-        { title: 'dr. sc. Sandra Marković radovi – Hrvatski', url: 'https://mgg-law.eu/' },
-        { title: 'dr. sc. Sandra Marković – published scientific papers – English', url: 'https://mgg-law.eu/' },
+        { title: 'dr. sc. Sandra Marković radovi – Hrvatski', url: 'https://mgg-law.eu/wp-content/uploads/2024/07/dr.-sc.-Sandra-Markovic-radovi.pdf' },
+        { title: 'dr. sc. Sandra Marković – published scientific papers – English', url: 'https://mgg-law.eu/wp-content/uploads/2024/07/dr.-sc.-Sandra-Markovic-published-scientific-papers.pdf' },
       ],
       career: [
         { years: '2019 – present', position: 'Joint Law Office of dr. sc. Sandra Marković, Sidonija Grbavac and dr. sc. Dino Gliha – attorney, partner' },
@@ -346,7 +346,7 @@ export const team = {
         'He is an active member of numerous professional and academic associations, including the Association littéraire et artistique internationale (ALAI), Oxford Artificial Intelligence Society, Oxford Union Society, the Croatian Bar Association and the Croatian Chamber of Patent and Trademark Attorneys.',
       ],
       works: [
-        { title: 'dr. sc. Dino Gliha radovi', url: 'https://mgg-law.eu/' },
+        { title: 'dr. sc. Dino Gliha radovi', url: 'https://mgg-law.eu/wp-content/uploads/2024/07/dr.-sc.-Dino-Gliha-radovi.pdf' },
       ],
       career: [
         { years: '2019 – present', position: 'Joint Law Office of dr. sc. Sandra Marković, Sidonija Grbavac and dr. sc. Dino Gliha – attorney, partner' },

@@ -1,7 +1,7 @@
 import { useLang } from '../context/LangContext'
 
 export default function Footer() {
-  const { setLang, tr } = useLang()
+  const { lang, setLang, tr } = useLang()
 
   return (
     <footer className="footer" style={{ background: '#F0EAE1', padding: '56px 68px', borderTop: '1px solid #CDBFAF' }}>
@@ -23,15 +23,16 @@ export default function Footer() {
           </div>
         </div>
 
-        <div>
+        <div style={{ textAlign: 'right' }}>
           <p style={{ fontSize: '9px', fontWeight: 700, letterSpacing: '.24em', textTransform: 'uppercase', color: '#8B3A2A', marginBottom: '16px' }}>
             {tr.footer.lang_label}
           </p>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
-            <button onClick={() => setLang('en')} style={{ fontSize: '13px', color: '#9A8070', textDecoration: 'none', background: 'none', border: 'none', cursor: 'pointer', padding: 0, textAlign: 'left' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+            <button onClick={() => setLang('en')} style={{ fontSize: '13px', color: lang === 'en' ? '#1A1108' : '#9A8070', fontWeight: lang === 'en' ? 700 : 400, background: 'none', border: 'none', cursor: 'pointer', padding: 0 }}>
               {tr.footer.lang_en}
             </button>
-            <button onClick={() => setLang('hr')} style={{ fontSize: '13px', color: '#1A1108', fontWeight: 700, background: 'none', border: 'none', cursor: 'pointer', padding: 0, textAlign: 'left' }}>
+            <span style={{ color: '#CDBFAF', fontSize: '13px' }}>|</span>
+            <button onClick={() => setLang('hr')} style={{ fontSize: '13px', color: lang === 'hr' ? '#1A1108' : '#9A8070', fontWeight: lang === 'hr' ? 700 : 400, background: 'none', border: 'none', cursor: 'pointer', padding: 0 }}>
               {tr.footer.lang_hr}
             </button>
           </div>

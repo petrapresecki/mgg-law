@@ -145,7 +145,6 @@ export default function Tim() {
       {/* HERO */}
       <section className="hero" style={{ display: 'flex', minHeight: '580px', background: '#F0EAE1' }}>
         <div className="hero-content" style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', padding: '0 88px 84px 68px' }}>
-          <div style={{ width: '28px', height: '2px', background: '#8B3A2A', marginBottom: '40px' }} />
           <h1 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 'clamp(56px, 7vw, 104px)', fontWeight: 400, lineHeight: 0.97, color: '#1A1108', marginBottom: '36px', letterSpacing: '-.025em' }}>
             {t.hero_h1}
           </h1>

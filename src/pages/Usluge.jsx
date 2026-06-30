@@ -35,7 +35,6 @@ export default function Usluge() {
       {/* HERO */}
       <section className="services-hero" style={{ background: '#F0EAE1', padding: '108px 88px 96px', display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between', borderBottom: '1px solid #CDBFAF', flexWrap: 'wrap', gap: '48px' }}>
         <div>
-          <div style={{ width: '28px', height: '2px', background: '#8B3A2A', marginBottom: '44px' }} />
           <h1 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 'clamp(64px, 8vw, 118px)', fontWeight: 400, lineHeight: 0.92, color: '#1A1108', letterSpacing: '-.025em', whiteSpace: 'pre-line' }}>
             {t.hero_h1}
           </h1>
