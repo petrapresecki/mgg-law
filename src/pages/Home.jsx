@@ -16,7 +16,10 @@ export default function Home() {
           <h1 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 'clamp(56px, 7vw, 108px)', fontWeight: 400, lineHeight: 0.97, color: '#1A1108', marginBottom: '44px', letterSpacing: '-.025em', whiteSpace: 'pre-line' }}>
             {h.hero_h1}
           </h1>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '7px', marginBottom: '56px' }}>
+          <div className="hero-image-mobile" style={{ display: 'none' }}>
+            <img src="/assets/DSC_0297.jpg" alt="MGG Law tim" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center center', display: 'block' }} />
+          </div>
+          <div className="hero-names" style={{ display: 'flex', flexDirection: 'column', gap: '7px', marginBottom: '56px' }}>
             <span style={{ fontSize: '14px', color: '#7A6050', letterSpacing: '.02em' }}>dr. sc. Sandra Marković</span>
             <span style={{ fontSize: '14px', color: '#7A6050', letterSpacing: '.02em' }}>Sidonija Grbavac</span>
             <span style={{ fontSize: '14px', color: '#7A6050', letterSpacing: '.02em' }}>dr. sc. Dino Gliha</span>
@@ -93,7 +96,7 @@ export default function Home() {
       {/* CONTACT */}
       <section className="contact-section" style={{ background: '#1A1108', padding: '96px 68px' }}>
         <div style={{ display: 'flex', gap: '80px', alignItems: 'flex-start', flexWrap: 'wrap' }}>
-          <div style={{ flexShrink: 0, maxWidth: '400px' }}>
+          <div style={{ flexShrink: 0, width: 'min(400px, 100%)' }}>
             <p style={{ fontSize: '9px', fontWeight: 700, letterSpacing: '.26em', textTransform: 'uppercase', color: '#8B3A2A', marginBottom: '28px' }}>{h.contact_label}</p>
             <h2 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 'clamp(44px, 4.5vw, 68px)', fontWeight: 400, color: '#F0EAE1', lineHeight: 1.04, letterSpacing: '-.025em', marginBottom: '32px', whiteSpace: 'pre-line' }}>
               {h.contact_h2}
