@@ -40,7 +40,7 @@ img { display: block; }
 
 .post-content p { margin-bottom: 1.4em; }
 .post-content h2, .post-content h3, .post-content h4 {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Spectral', serif;
   font-weight: 400;
   color: #1A1108;
   margin: 2em 0 .6em;
@@ -74,7 +74,7 @@ img { display: block; }
   .nav-hamburger { display: flex !important; }
   .nav-mobile { display: none; flex-direction: column; position: fixed; top: 72px; left: 0; right: 0; bottom: 0; background: #F0EAE1; padding: 40px 24px; z-index: 99; overflow-y: auto; border-top: 1px solid #CDBFAF; gap: 0; }
   .nav-mobile.open { display: flex; }
-  .nav-mobile-link { font-size: 28px !important; font-family: 'Cormorant Garamond', serif !important; padding: 20px 0; border-bottom: 1px solid #E4D8C8; font-weight: 400 !important; letter-spacing: -.01em !important; }
+  .nav-mobile-link { font-size: 28px !important; font-family: 'Spectral', serif !important; padding: 20px 0; border-bottom: 1px solid #E4D8C8; font-weight: 400 !important; letter-spacing: -.01em !important; }
   .nav-mobile-lang { display: flex; gap: 16px; padding-top: 32px; }
 
   /* Hero sections */

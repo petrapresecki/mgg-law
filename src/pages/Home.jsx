@@ -13,7 +13,7 @@ export default function Home() {
       {/* HERO */}
       <section className="hero" style={{ display: 'flex', minHeight: '700px', background: '#F0EAE1' }}>
         <div className="hero-content" style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', padding: '0 88px 84px 68px' }}>
-          <h1 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 'clamp(56px, 7vw, 108px)', fontWeight: 400, lineHeight: 0.97, color: '#1A1108', marginBottom: '44px', letterSpacing: '-.025em', whiteSpace: 'pre-line' }}>
+          <h1 style={{ fontFamily: "'Spectral', serif", fontSize: 'clamp(56px, 7vw, 108px)', fontWeight: 300, lineHeight: 0.97, color: '#1A1108', marginBottom: '44px', letterSpacing: '-.025em', whiteSpace: 'pre-line' }}>
             {h.hero_h1}
           </h1>
           <div className="hero-image-mobile" style={{ display: 'none' }}>
@@ -61,13 +61,13 @@ export default function Home() {
         </div>
         <div style={{ display: 'flex', gap: '96px', alignItems: 'flex-start', flexWrap: 'wrap' }}>
           <div style={{ flex: 1, minWidth: '280px' }}>
-            <h2 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 'clamp(42px, 4.5vw, 66px)', fontWeight: 400, color: '#1A1108', lineHeight: 1.06, letterSpacing: '-.02em', marginBottom: '52px', whiteSpace: 'pre-line' }}>
+            <h2 style={{ fontFamily: "'Spectral', serif", fontSize: 'clamp(42px, 4.5vw, 66px)', fontWeight: 300, color: '#1A1108', lineHeight: 1.06, letterSpacing: '-.02em', marginBottom: '52px', whiteSpace: 'pre-line' }}>
               {h.about_h2}
             </h2>
             <p style={{ fontSize: '15px', lineHeight: 1.9, color: '#3A2C1E', marginBottom: '22px' }}>{h.about_p1}</p>
             <p style={{ fontSize: '15px', lineHeight: 1.9, color: '#3A2C1E', marginBottom: '22px' }}>{h.about_p2}</p>
             <p style={{ fontSize: '15px', lineHeight: 1.9, color: '#3A2C1E', marginBottom: '56px' }}>{h.about_p3}</p>
-            <p style={{ fontFamily: "'Cormorant Garamond', serif", fontStyle: 'italic', fontSize: '20px', color: '#8B3A2A', lineHeight: 1.55, whiteSpace: 'pre-line' }}>{h.about_pet}</p>
+            <p style={{ fontFamily: "'Spectral', serif", fontStyle: 'italic', fontSize: '20px', color: '#8B3A2A', lineHeight: 1.55, whiteSpace: 'pre-line' }}>{h.about_pet}</p>
           </div>
           <div className="about-sidebar" style={{ width: '352px', flexShrink: 0, display: 'flex', flexDirection: 'column' }}>
             <div style={{ height: '420px', marginBottom: '44px', position: 'relative', overflow: 'hidden' }}>
@@ -84,7 +84,7 @@ export default function Home() {
                 { name: 'dr. sc. Dino Gliha', spec: 'Korporativno pravo i intelektualno vlasništvo' },
               ].map((p, i, arr) => (
                 <div key={p.name} style={{ padding: '20px 0', borderTop: '1px solid #E4D8C8', borderBottom: i === arr.length - 1 ? '1px solid #E4D8C8' : 'none' }}>
-                  <p style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: '22px', fontWeight: 500, color: '#1A1108', marginBottom: '5px', lineHeight: 1.2 }}>{p.name}</p>
+                  <p style={{ fontFamily: "'Spectral', serif", fontSize: '22px', fontWeight: 500, color: '#1A1108', marginBottom: '5px', lineHeight: 1.2 }}>{p.name}</p>
                   <p style={{ fontSize: '11px', color: '#8B3A2A', fontWeight: 600, letterSpacing: '.04em' }}>{p.spec}</p>
                 </div>
               ))}
@@ -98,7 +98,7 @@ export default function Home() {
         <div style={{ display: 'flex', gap: '80px', alignItems: 'flex-start', flexWrap: 'wrap' }}>
           <div style={{ flexShrink: 0, width: 'min(400px, 100%)' }}>
             <p style={{ fontSize: '9px', fontWeight: 700, letterSpacing: '.26em', textTransform: 'uppercase', color: '#8B3A2A', marginBottom: '28px' }}>{h.contact_label}</p>
-            <h2 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 'clamp(44px, 4.5vw, 68px)', fontWeight: 400, color: '#F0EAE1', lineHeight: 1.04, letterSpacing: '-.025em', marginBottom: '32px', whiteSpace: 'pre-line' }}>
+            <h2 style={{ fontFamily: "'Spectral', serif", fontSize: 'clamp(44px, 4.5vw, 68px)', fontWeight: 300, color: '#F0EAE1', lineHeight: 1.04, letterSpacing: '-.025em', marginBottom: '32px', whiteSpace: 'pre-line' }}>
               {h.contact_h2}
             </h2>
             <p style={{ fontSize: '14px', lineHeight: 1.82, color: '#9A8070' }}>{h.contact_p}</p>

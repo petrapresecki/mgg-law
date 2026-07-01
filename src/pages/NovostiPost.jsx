@@ -68,7 +68,7 @@ export default function NovostiPost() {
                   {formatDate(post.date)}
                 </p>
                 <h1
-                  style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 'clamp(40px, 5vw, 72px)', fontWeight: 400, lineHeight: 1.0, color: '#1A1108', letterSpacing: '-.025em' }}
+                  style={{ fontFamily: "'Spectral', serif", fontSize: 'clamp(40px, 5vw, 72px)', fontWeight: 400, lineHeight: 1.0, color: '#1A1108', letterSpacing: '-.025em' }}
                   dangerouslySetInnerHTML={{ __html: post.title.rendered }}
                 />
               </>

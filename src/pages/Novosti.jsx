@@ -42,7 +42,7 @@ export default function Novosti() {
 
       {/* HERO */}
       <section className="news-hero" style={{ background: '#F0EAE1', padding: '108px 88px 96px', borderBottom: '1px solid #CDBFAF' }}>
-        <h1 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 'clamp(56px, 8vw, 118px)', fontWeight: 400, lineHeight: 0.92, color: '#1A1108', letterSpacing: '-.025em', marginBottom: '40px' }}>
+        <h1 style={{ fontFamily: "'Spectral', serif", fontSize: 'clamp(56px, 8vw, 118px)', fontWeight: 300, lineHeight: 0.92, color: '#1A1108', letterSpacing: '-.025em', marginBottom: '40px' }}>
           {t.hero_h1}
         </h1>
         <p style={{ fontSize: '14px', lineHeight: 1.85, color: '#7A6050', maxWidth: '480px' }}>{t.hero_p}</p>
@@ -111,7 +111,7 @@ function PostCard({ post, readMore }) {
             </span>
           )}
           <h2
-            style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: '24px', fontWeight: 400, color: '#FFFFFF', lineHeight: 1.2, letterSpacing: '-.01em', margin: 0 }}
+            style={{ fontFamily: "'Spectral', serif", fontSize: '24px', fontWeight: 400, color: '#FFFFFF', lineHeight: 1.2, letterSpacing: '-.01em', margin: 0 }}
             dangerouslySetInnerHTML={{ __html: post.title.rendered }}
           />
         </div>
@@ -132,7 +132,7 @@ function PostCard({ post, readMore }) {
           {category && <><span style={{ color: '#8B3A2A' }}>{category}</span> · </>}{formatDate(post.date)}
         </p>
         <h2
-          style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: '26px', fontWeight: 400, color: '#1A1108', lineHeight: 1.2, letterSpacing: '-.01em', marginBottom: '14px' }}
+          style={{ fontFamily: "'Spectral', serif", fontSize: '26px', fontWeight: 400, color: '#1A1108', lineHeight: 1.2, letterSpacing: '-.01em', marginBottom: '14px' }}
           dangerouslySetInnerHTML={{ __html: post.title.rendered }}
         />
         {excerpt && (

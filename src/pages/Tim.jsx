@@ -39,7 +39,7 @@ function PersonOverlay({ member, onClose, tr }) {
 
           <div style={{ flex: 1, paddingTop: '4px', minWidth: '240px' }}>
             <p style={{ fontSize: '9px', fontWeight: 700, letterSpacing: '.22em', textTransform: 'uppercase', color: '#8B3A2A', marginBottom: '14px' }}>{member.role}</p>
-            <h2 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 'clamp(36px, 4vw, 64px)', fontWeight: 400, color: '#1A1108', lineHeight: 1.02, letterSpacing: '-.025em', marginBottom: '14px' }}>{member.name}</h2>
+            <h2 style={{ fontFamily: "'Spectral', serif", fontSize: 'clamp(36px, 4vw, 64px)', fontWeight: 300, color: '#1A1108', lineHeight: 1.02, letterSpacing: '-.025em', marginBottom: '14px' }}>{member.name}</h2>
             <p style={{ fontSize: '11px', fontWeight: 500, letterSpacing: '.14em', textTransform: 'uppercase', color: '#9A8070', marginBottom: '32px' }}>{member.specialty}</p>
 
             {member.works && member.works.length > 0 && (
@@ -145,7 +145,7 @@ export default function Tim() {
       {/* HERO */}
       <section className="hero" style={{ display: 'flex', minHeight: '580px', background: '#F0EAE1' }}>
         <div className="hero-content" style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', padding: '0 88px 84px 68px' }}>
-          <h1 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 'clamp(56px, 7vw, 104px)', fontWeight: 400, lineHeight: 0.97, color: '#1A1108', marginBottom: '36px', letterSpacing: '-.025em' }}>
+          <h1 style={{ fontFamily: "'Spectral', serif", fontSize: 'clamp(56px, 7vw, 104px)', fontWeight: 300, lineHeight: 0.97, color: '#1A1108', marginBottom: '36px', letterSpacing: '-.025em' }}>
             {t.hero_h1}
           </h1>
           <p style={{ fontSize: '15px', lineHeight: 1.82, color: '#7A6050', maxWidth: '480px' }}>{t.hero_p}</p>
@@ -162,7 +162,7 @@ export default function Tim() {
       {/* QUOTE */}
       <section style={{ background: '#1A1108', padding: '72px 68px' }}>
         <div style={{ maxWidth: '760px', margin: '0 auto', textAlign: 'center' }}>
-          <p style={{ fontFamily: "'Cormorant Garamond', serif", fontStyle: 'italic', fontSize: 'clamp(22px, 3vw, 32px)', fontWeight: 300, color: '#F0EAE1', lineHeight: 1.52, marginBottom: '36px', letterSpacing: '-.01em' }}>
+          <p style={{ fontFamily: "'Spectral', serif", fontStyle: 'italic', fontSize: 'clamp(22px, 3vw, 32px)', fontWeight: 300, color: '#F0EAE1', lineHeight: 1.52, marginBottom: '36px', letterSpacing: '-.01em' }}>
             {t.quote}
           </p>
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '16px' }}>
@@ -230,7 +230,7 @@ function MemberCard({ member, onClick, profile }) {
       </div>
       <div style={{ padding: '22px 20px 20px', display: 'flex', flexDirection: 'column', flex: 1 }}>
         <p style={{ fontSize: '9px', fontWeight: 700, letterSpacing: '.22em', textTransform: 'uppercase', color: '#8B3A2A', marginBottom: '10px' }}>{member.role}</p>
-        <h3 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: '30px', fontWeight: 400, color: '#1A1108', lineHeight: 1.15, letterSpacing: '-.01em', marginBottom: '14px' }}>{member.name}</h3>
+        <h3 style={{ fontFamily: "'Spectral', serif", fontSize: '30px', fontWeight: 300, color: '#1A1108', lineHeight: 1.15, letterSpacing: '-.01em', marginBottom: '14px' }}>{member.name}</h3>
         <p style={{ fontSize: '13px', lineHeight: 1.78, color: '#7A6050', flex: 1 }}>{member.shortBio}</p>
         <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginTop: '22px', paddingTop: '18px', borderTop: `1px solid ${hovered ? '#CDBFAF' : '#E4D8C8'}`, transition: 'border-color .35s ease' }}>
           <span style={{ fontSize: '10px', fontWeight: 700, letterSpacing: '.2em', textTransform: 'uppercase', color: '#8B3A2A' }}>{profile}</span>

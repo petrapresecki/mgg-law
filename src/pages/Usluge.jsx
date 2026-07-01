@@ -35,7 +35,7 @@ export default function Usluge() {
       {/* HERO */}
       <section className="services-hero" style={{ background: '#F0EAE1', padding: '108px 88px 96px', display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between', borderBottom: '1px solid #CDBFAF', flexWrap: 'wrap', gap: '48px' }}>
         <div>
-          <h1 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 'clamp(64px, 8vw, 118px)', fontWeight: 400, lineHeight: 0.92, color: '#1A1108', letterSpacing: '-.025em', whiteSpace: 'pre-line' }}>
+          <h1 style={{ fontFamily: "'Spectral', serif", fontSize: 'clamp(64px, 8vw, 118px)', fontWeight: 300, lineHeight: 0.92, color: '#1A1108', letterSpacing: '-.025em', whiteSpace: 'pre-line' }}>
             {t.hero_h1}
           </h1>
         </div>
@@ -66,7 +66,7 @@ export default function Usluge() {
                   className="services-list-item"
                   style={{ display: 'flex', alignItems: 'center', gap: '28px', padding: '22px 88px', borderBottom: '1px solid #E4D8C8', cursor: 'pointer', background: isActive ? '#FAF7F4' : '#FFFFFF', transition: 'background .15s ease' }}
                 >
-                  <span style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: '26px', fontWeight: 300, color: isActive ? '#8B3A2A' : '#D4C8B8', minWidth: '44px', flexShrink: 0, lineHeight: 1, transition: 'color .2s ease' }}>{svc.num}</span>
+                  <span style={{ fontFamily: "'Spectral', serif", fontSize: '26px', fontWeight: 300, color: isActive ? '#8B3A2A' : '#D4C8B8', minWidth: '44px', flexShrink: 0, lineHeight: 1, transition: 'color .2s ease' }}>{svc.num}</span>
                   <span style={{ fontSize: '10px', fontWeight: 600, color: isActive ? '#1A1108' : '#7A6A58', textTransform: 'uppercase', letterSpacing: '.11em', flex: 1, lineHeight: 1.5, transition: 'color .2s ease' }}>{svc.name}</span>
                   <span style={{ fontSize: '13px', color: isActive ? '#8B3A2A' : 'transparent', flexShrink: 0, transition: 'color .2s ease', marginLeft: '8px' }}>→</span>
                 </div>
@@ -76,10 +76,10 @@ export default function Usluge() {
 
           {/* RIGHT: sticky content panel */}
           <div className="services-panel" style={{ position: 'sticky', top: '72px', padding: '64px 88px 64px 72px' }}>
-            <span style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: '88px', fontWeight: 300, color: '#EDE4D8', lineHeight: 1, display: 'block', letterSpacing: '-.03em', marginBottom: '16px' }}>
+            <span style={{ fontFamily: "'Spectral', serif", fontSize: '88px', fontWeight: 300, color: '#EDE4D8', lineHeight: 1, display: 'block', letterSpacing: '-.03em', marginBottom: '16px' }}>
               {active.num}
             </span>
-            <h2 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: '40px', fontWeight: 400, color: '#1A1108', lineHeight: 1.12, letterSpacing: '-.015em', marginBottom: '36px', maxWidth: '460px' }}>
+            <h2 style={{ fontFamily: "'Spectral', serif", fontSize: '40px', fontWeight: 300, color: '#1A1108', lineHeight: 1.12, letterSpacing: '-.015em', marginBottom: '36px', maxWidth: '460px' }}>
               {active.name}
             </h2>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '18px', marginBottom: '44px' }}>
@@ -98,7 +98,7 @@ export default function Usluge() {
       <section className="services-cta" style={{ background: '#1A1108', padding: '88px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '64px', flexWrap: 'wrap' }}>
         <div>
           <p style={{ fontSize: '9px', fontWeight: 700, letterSpacing: '.24em', textTransform: 'uppercase', color: '#8B3A2A', marginBottom: '20px' }}>{t.cta_label}</p>
-          <h2 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 'clamp(40px, 4vw, 60px)', fontWeight: 400, color: '#F0EAE1', lineHeight: 1.08, letterSpacing: '-.02em', whiteSpace: 'pre-line' }}>
+          <h2 style={{ fontFamily: "'Spectral', serif", fontSize: 'clamp(40px, 4vw, 60px)', fontWeight: 300, color: '#F0EAE1', lineHeight: 1.08, letterSpacing: '-.02em', whiteSpace: 'pre-line' }}>
             {t.cta_h2}
           </h2>
         </div>
@@ -133,10 +133,10 @@ export default function Usluge() {
           >✕</button>
         </div>
         <div style={{ padding: '48px 24px 80px' }}>
-          <span style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: '72px', fontWeight: 300, color: '#EDE4D8', lineHeight: 1, display: 'block', letterSpacing: '-.03em', marginBottom: '12px' }}>
+          <span style={{ fontFamily: "'Spectral', serif", fontSize: '72px', fontWeight: 300, color: '#EDE4D8', lineHeight: 1, display: 'block', letterSpacing: '-.03em', marginBottom: '12px' }}>
             {sheetService.num}
           </span>
-          <h2 style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: '32px', fontWeight: 400, color: '#1A1108', lineHeight: 1.15, letterSpacing: '-.015em', marginBottom: '32px' }}>
+          <h2 style={{ fontFamily: "'Spectral', serif", fontSize: '32px', fontWeight: 300, color: '#1A1108', lineHeight: 1.15, letterSpacing: '-.015em', marginBottom: '32px' }}>
             {sheetService.name}
           </h2>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '18px', marginBottom: '40px' }}>
