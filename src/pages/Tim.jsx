@@ -67,43 +67,17 @@ function PersonOverlay({ member, onClose, tr }) {
           ))}
         </div>
 
-        <Section label={tr.career_label} items={member.career} renderItem={(e) => (
-          <div style={{ display: 'flex', gap: '32px', padding: '13px 0', borderBottom: '1px solid #E4D8C8' }}>
-            <span style={{ fontSize: '11px', color: '#9A8070', flexShrink: 0, minWidth: '104px', paddingTop: '2px', lineHeight: 1.5 }}>{e.years}</span>
-            <span style={{ fontSize: '14px', lineHeight: 1.62, color: '#3A2C1E' }}>{e.position}</span>
-          </div>
-        )} />
+        <Section label={tr.career_label} items={member.career} renderItem={TimelineRow} />
 
-        <Section label={tr.academic_label} items={member.academic} renderItem={(e) => (
-          <div style={{ display: 'flex', gap: '32px', padding: '13px 0', borderBottom: '1px solid #E4D8C8' }}>
-            <span style={{ fontSize: '11px', color: '#9A8070', flexShrink: 0, minWidth: '104px', paddingTop: '2px', lineHeight: 1.5 }}>{e.years}</span>
-            <span style={{ fontSize: '14px', lineHeight: 1.62, color: '#3A2C1E' }}>{e.position}</span>
-          </div>
-        )} />
+        <Section label={tr.academic_label} items={member.academic} renderItem={TimelineRow} />
 
-        <Section label={tr.education_label} items={member.education} renderItem={(e) => (
-          <div style={{ padding: '13px 0', borderBottom: '1px solid #E4D8C8' }}>
-            <p style={{ fontSize: '14px', lineHeight: 1.62, color: '#3A2C1E' }}>{e}</p>
-          </div>
-        )} />
+        <Section label={tr.education_label} items={member.education} renderItem={TimelineRow} />
 
-        <Section label={tr.certifications_label} items={member.certifications} renderItem={(e) => (
-          <div style={{ padding: '13px 0', borderBottom: '1px solid #E4D8C8' }}>
-            <p style={{ fontSize: '14px', lineHeight: 1.62, color: '#3A2C1E' }}>{e}</p>
-          </div>
-        )} />
+        <Section label={tr.certifications_label} items={member.certifications} renderItem={TimelineRow} />
 
-        <Section label={tr.awards_label} items={member.awards} renderItem={(e) => (
-          <div style={{ padding: '13px 0', borderBottom: '1px solid #E4D8C8' }}>
-            <p style={{ fontSize: '14px', lineHeight: 1.62, color: '#3A2C1E' }}>{e}</p>
-          </div>
-        )} />
+        <Section label={tr.awards_label} items={member.awards} renderItem={TimelineRow} />
 
-        <Section label={tr.memberships_label} items={member.memberships} renderItem={(e) => (
-          <div style={{ padding: '13px 0', borderBottom: '1px solid #E4D8C8' }}>
-            <p style={{ fontSize: '14px', lineHeight: 1.62, color: '#3A2C1E' }}>{e}</p>
-          </div>
-        )} />
+        <Section label={tr.memberships_label} items={member.memberships} renderItem={TimelineRow} />
 
         {member.languages && (
           <div style={{ marginTop: '44px' }}>
@@ -118,6 +92,27 @@ function PersonOverlay({ member, onClose, tr }) {
           </span>
         </div>
       </div>
+    </div>
+  )
+}
+
+// Splits a leading year token off a plain string entry so string-based sections
+// match the two-column career layout. Handles single years ("1997."), ranges
+// ("2016.–2022.", "2020-2021") and comma lists ("2014, 2015") — anything up to
+// the first ", " / " – " separator that precedes non-numeric text.
+function toEntry(item) {
+  if (typeof item !== 'string') return item
+  const m = item.match(/^(\d[\d.,\s–—-]*?)[,–—]\s+(\D.*)$/)
+  if (!m) return { years: '', position: item }
+  return { years: m[1].replace(/[\s,–—-]+$/, ''), position: m[2] }
+}
+
+function TimelineRow(item) {
+  const { years, position } = toEntry(item)
+  return (
+    <div style={{ display: 'flex', gap: '32px', padding: '13px 0', borderBottom: '1px solid #E4D8C8' }}>
+      <span style={{ fontSize: '11px', color: '#9A8070', flexShrink: 0, width: '128px', paddingTop: '2px', lineHeight: 1.5 }}>{years}</span>
+      <span style={{ fontSize: '14px', lineHeight: 1.62, color: '#3A2C1E' }}>{position}</span>
     </div>
   )
 }
