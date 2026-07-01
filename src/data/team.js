@@ -44,8 +44,8 @@ export const team = {
       ],
       memberships: [
         'Hrvatska odvjetnička komora',
-        'Od 2018. – nadalje: Zamjenica predsjednika Hrvatskog društva za građanskopravne znanosti i praksu',
-        '2014. do 2018.: Tajnica Hrvatskog društva za građanskopravne znanosti i praksu',
+        { years: '2018. – nadalje', position: 'Zamjenica predsjednika Hrvatskog društva za građanskopravne znanosti i praksu' },
+        { years: '2014.–2018.', position: 'Tajnica Hrvatskog društva za građanskopravne znanosti i praksu' },
         'Hrvatska udruga za ustavno pravo',
       ],
       languages: 'hrvatski, engleski',
@@ -286,8 +286,8 @@ export const team = {
       ],
       memberships: [
         'Croatian Bar Association',
-        'Since 2018 – present: Vice-President of the Croatian Society for Civil Law Sciences and Practice',
-        '2014 to 2018: Secretary of the Croatian Society for Civil Law Sciences and Practice',
+        { years: '2018 – present', position: 'Vice-President of the Croatian Society for Civil Law Sciences and Practice' },
+        { years: '2014–2018', position: 'Secretary of the Croatian Society for Civil Law Sciences and Practice' },
         'Croatian Constitutional Law Association',
       ],
       languages: 'Croatian, English',
