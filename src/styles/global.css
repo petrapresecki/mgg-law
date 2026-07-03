@@ -82,7 +82,7 @@ img { display: block; }
   .hero-content { padding: 48px 24px 52px !important; }
   .hero-image { display: none !important; }
   .hero-image-mobile { display: block !important; margin: 0 -24px 40px; width: calc(100% + 48px); height: 280px; overflow: hidden; }
-  .hero-names { display: none !important; }
+  .hero-names { display: flex !important; }
 
   /* Specialty strip */
   .specialty-item { border-right: none !important; border-bottom: 1px solid #2C1E10 !important; padding: 20px 24px !important; }

@@ -77,7 +77,7 @@ export default function Home() {
                 letterSpacing: ".02em",
               }}
             >
-              Sidonija Grbavac
+              dr. sc. Dino Gliha
             </span>
             <span
               style={{
@@ -86,7 +86,7 @@ export default function Home() {
                 letterSpacing: ".02em",
               }}
             >
-              dr. sc. Dino Gliha
+              Sidonija Grbavac
             </span>
           </div>
           <a
