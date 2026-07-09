@@ -23,11 +23,21 @@ function stripHtml(html) {
 }
 
 export default function Novosti() {
-  const { tr } = useLang()
+  const { tr, lang } = useLang()
   const t = tr.news
   const [posts, setPosts] = useState([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(false)
+
+  useEffect(() => {
+    document.title = lang === 'en'
+      ? 'News – MGG Law Group'
+      : 'Novosti – MGG Law Group';
+    const meta = document.querySelector('meta[name="description"]');
+    if (meta) meta.content = lang === 'en'
+      ? 'Latest news and legal insights from MGG Law Group, Zagreb.'
+      : 'Najnovije vijesti i pravni članci MGG Law Group, Zagreb.';
+  }, [lang]);
 
   useEffect(() => {
     fetch(WP_API)

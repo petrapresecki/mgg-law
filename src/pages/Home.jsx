@@ -1,10 +1,21 @@
+import { useEffect } from "react";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 import { useLang } from "../context/LangContext";
 
 export default function Home() {
-  const { tr } = useLang();
+  const { tr, lang } = useLang();
   const h = tr.home;
+
+  useEffect(() => {
+    document.title = lang === 'en'
+      ? 'MGG Law Group – Law Firm Zagreb'
+      : 'MGG Law Group – Odvjetnički ured Zagreb';
+    const meta = document.querySelector('meta[name="description"]');
+    if (meta) meta.content = lang === 'en'
+      ? 'MGG Law Group – joint law office of dr. sc. Sandra Marković, Sidonija Grbavac and dr. sc. Dino Gilha, Zagreb.'
+      : 'MGG Law Group – zajednički odvjetnički ured dr. sc. Sandre Marković, Sidonije Grbavac i dr. sc. Dina Gilhe, Zagreb.';
+  }, [lang]);
 
   return (
     <>

@@ -15,6 +15,16 @@ export default function Usluge() {
   const sheetService = servicesData[sheetIndex]
 
   useEffect(() => {
+    document.title = lang === 'en'
+      ? 'Services – MGG Law Group'
+      : 'Usluge – MGG Law Group';
+    const meta = document.querySelector('meta[name="description"]');
+    if (meta) meta.content = lang === 'en'
+      ? 'Legal services offered by MGG Law Group – corporate law, litigation, real estate, and more.'
+      : 'Pravne usluge MGG Law Group – poslovno pravo, parnice, nekretnine i ostalo.';
+  }, [lang]);
+
+  useEffect(() => {
     document.body.style.overflow = sheetOpen ? 'hidden' : ''
     return () => { document.body.style.overflow = '' }
   }, [sheetOpen])

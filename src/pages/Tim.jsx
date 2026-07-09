@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
 import { useLang } from '../context/LangContext'
@@ -132,6 +132,16 @@ export default function Tim() {
   const [selected, setSelected] = useState(null)
   const t = tr.team
   const teamData = team[lang]
+
+  useEffect(() => {
+    document.title = lang === 'en'
+      ? 'Our Team – MGG Law Group'
+      : 'Tim – MGG Law Group';
+    const meta = document.querySelector('meta[name="description"]');
+    if (meta) meta.content = lang === 'en'
+      ? 'Meet the attorneys at MGG Law Group – dr. sc. Sandra Marković, Sidonija Grbavac and dr. sc. Dino Gilha.'
+      : 'Upoznajte tim MGG Law Group – dr. sc. Sandra Marković, Sidonija Grbavac i dr. sc. Dino Gilha.';
+  }, [lang]);
 
   return (
     <>

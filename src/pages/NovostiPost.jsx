@@ -21,8 +21,10 @@ export default function NovostiPost() {
     fetch(`https://mgg-law.eu/wp-json/wp/v2/posts?slug=${slug}&_embed=wp:featuredmedia`)
       .then(r => r.json())
       .then(data => {
-        if (data.length > 0) setPost(data[0])
-        else setError(true)
+        if (data.length > 0) {
+          setPost(data[0])
+          document.title = `${data[0].title.rendered} – MGG Law Group`;
+        } else setError(true)
         setLoading(false)
       })
       .catch(() => { setError(true); setLoading(false) })

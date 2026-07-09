@@ -2,6 +2,7 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/YOUR_CPANEL_USERNAME/public_html/
-    - npm ci
+    - source /home/YOUR_CPANEL_USERNAME/nodevenv/mgg-law/20/bin/activate
+    - npm install
     - npm run build
     - /bin/cp -rf dist/* $DEPLOYPATH
