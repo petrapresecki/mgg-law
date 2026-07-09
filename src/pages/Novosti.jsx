@@ -4,7 +4,7 @@ import Nav from '../components/Nav'
 import Footer from '../components/Footer'
 import { useLang } from '../context/LangContext'
 
-const WP_API = 'https://mgg-law.eu/wp-json/wp/v2/posts?per_page=20&_embed=wp:featuredmedia,wp:term&orderby=date&order=desc'
+const WP_API = 'https://cms.mgg-law.eu/wp-json/wp/v2/posts?per_page=20&_embed=wp:featuredmedia,wp:term&orderby=date&order=desc'
 
 function formatDate(dateStr) {
   const d = new Date(dateStr)

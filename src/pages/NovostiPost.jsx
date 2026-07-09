@@ -18,7 +18,7 @@ export default function NovostiPost() {
   const [error, setError] = useState(false)
 
   useEffect(() => {
-    fetch(`https://mgg-law.eu/wp-json/wp/v2/posts?slug=${slug}&_embed=wp:featuredmedia`)
+    fetch(`https://cms.mgg-law.eu/wp-json/wp/v2/posts?slug=${slug}&_embed=wp:featuredmedia`)
       .then(r => r.json())
       .then(data => {
         if (data.length > 0) {
