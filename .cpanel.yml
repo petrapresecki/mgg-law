@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - /home/mgglaweu/nodevenv/repos/mgg-law/20/bin/npm install
-    - /home/mgglaweu/nodevenv/repos/mgg-law/20/bin/npm run build
-    - /bin/cp -rf dist/* /home/mgglaweu/public_html/
+    - export DEPLOYPATH=/home/mgglaweu/public_html/
+    - source /home/mgglaweu/nodevenv/repos/mgg-law/20/bin/activate && npm install && npm run build
+    - /bin/cp -rf dist/. /home/mgglaweu/public_html/
