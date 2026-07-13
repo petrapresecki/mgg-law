@@ -65,6 +65,20 @@ img { display: block; }
 .post-content figcaption { font-size: 12px; color: #9A8070; margin-top: .5em; }
 .post-content strong { font-weight: 600; color: #1A1108; }
 
+/* ===== ULTRA-WIDE ===== */
+/* On very wide screens the 3-column cards get wide; a fixed 420px height crops
+   the photos too aggressively (tops of heads get cut). Give them a taller
+   aspect ratio so less vertical crop is needed. */
+@media (min-width: 1600px) {
+  .member-card-photo { height: 540px !important; }
+}
+@media (min-width: 2100px) {
+  .member-card-photo { height: 680px !important; }
+}
+@media (min-width: 2800px) {
+  .member-card-photo { height: 840px !important; }
+}
+
 /* ===== RESPONSIVE ===== */
 
 @media (max-width: 768px) {

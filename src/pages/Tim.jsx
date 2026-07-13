@@ -222,7 +222,7 @@ function MemberCard({ member, onClick, profile }) {
         transition: 'transform .35s cubic-bezier(.25,.46,.45,.94), box-shadow .35s cubic-bezier(.25,.46,.45,.94)',
       }}
     >
-      <div style={{ height: '420px', position: 'relative', overflow: 'hidden', background: member.cardBg }}>
+      <div className="member-card-photo" style={{ height: '420px', position: 'relative', overflow: 'hidden', background: member.cardBg }}>
         {member.photo && (
           <img src={member.photo} alt={member.name} style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: member.photoPosition || 'center top', display: 'block' }} />
         )}

@@ -387,15 +387,15 @@ export default function Home() {
               {[
                 {
                   name: "dr. sc. Sandra Marković",
-                  spec: "Sudsko, ustavno i upravno pravo",
+                  spec: tr.specialties.Sandra,
                 },
                 {
                   name: "Sidonija Grbavac",
-                  spec: "Obiteljsko i odvjetničko pravo",
+                  spec: tr.specialties.Sidonija,
                 },
                 {
                   name: "dr. sc. Dino Gliha",
-                  spec: "Korporativno pravo i intelektualno vlasništvo",
+                  spec: tr.specialties.Dino,
                 },
               ].map((p, i, arr) => (
                 <div
