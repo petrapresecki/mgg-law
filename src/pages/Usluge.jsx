@@ -3,6 +3,7 @@ import Nav from '../components/Nav'
 import Footer from '../components/Footer'
 import { useLang } from '../context/LangContext'
 import { services } from '../data/services'
+import { uslugeHeroPhoto } from '../data/groupPhotos'
 
 export default function Usluge() {
   const { tr, lang } = useLang()
@@ -43,15 +44,18 @@ export default function Usluge() {
       <Nav />
 
       {/* HERO */}
-      <section className="services-hero" style={{ background: '#F0EAE1', padding: '108px 88px 96px', display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between', borderBottom: '1px solid #CDBFAF', flexWrap: 'wrap', gap: '48px' }}>
-        <div>
-          <h1 style={{ fontFamily: "'Spectral', serif", fontSize: 'clamp(64px, 8vw, 118px)', fontWeight: 300, lineHeight: 0.92, color: '#1A1108', letterSpacing: '-.025em', whiteSpace: 'pre-line' }}>
+      <section className="services-hero" style={{ background: '#F0EAE1', display: 'flex', alignItems: 'stretch', minHeight: 'clamp(400px, 34.667vw, 667px)', borderBottom: '1px solid #CDBFAF' }}>
+        <div className="services-hero-content" style={{ flex: 1, minWidth: 0, display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', padding: 'clamp(32px, 4vw, 80px) 64px clamp(32px, 4vw, 80px) 88px' }}>
+          <h1 style={{ fontFamily: "'Spectral', serif", fontSize: 'clamp(64px, 8vw, 118px)', fontWeight: 300, lineHeight: 0.92, color: '#1A1108', letterSpacing: '-.025em', whiteSpace: 'pre-line', marginBottom: '40px' }}>
             {t.hero_h1}
           </h1>
+          <div className="services-hero-desc" style={{ maxWidth: '420px' }}>
+            <p style={{ fontSize: '14px', lineHeight: 1.85, color: '#7A6050', marginBottom: '24px' }}>{t.hero_p}</p>
+            <span style={{ fontSize: '9px', fontWeight: 700, letterSpacing: '.24em', textTransform: 'uppercase', color: '#8B3A2A' }}>{t.count}</span>
+          </div>
         </div>
-        <div className="services-hero-desc" style={{ maxWidth: '320px', textAlign: 'right', paddingBottom: '6px' }}>
-          <p style={{ fontSize: '14px', lineHeight: 1.85, color: '#7A6050', marginBottom: '28px' }}>{t.hero_p}</p>
-          <span style={{ fontSize: '9px', fontWeight: 700, letterSpacing: '.24em', textTransform: 'uppercase', color: '#8B3A2A' }}>{t.count}</span>
+        <div className="services-hero-photo" style={{ width: 'clamp(600px, 52vw, 1000px)', flexShrink: 0, position: 'relative', overflow: 'hidden' }}>
+          <img src={uslugeHeroPhoto} alt="MGG Law tim" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center', display: 'block' }} />
         </div>
       </section>
 

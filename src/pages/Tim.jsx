@@ -3,6 +3,7 @@ import Nav from '../components/Nav'
 import Footer from '../components/Footer'
 import { useLang } from '../context/LangContext'
 import { team } from '../data/team'
+import { timPhoto } from '../data/groupPhotos'
 
 function PersonOverlay({ member, onClose, tr }) {
   return (
@@ -148,15 +149,18 @@ export default function Tim() {
       <Nav />
 
       {/* HERO */}
-      <section className="hero" style={{ display: 'flex', minHeight: '580px', background: '#F0EAE1' }}>
+      <section className="hero" style={{ display: 'flex', minHeight: 'clamp(540px, 54vw, 840px)', background: '#F0EAE1' }}>
         <div className="hero-content" style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'flex-end', padding: '0 88px 84px 68px' }}>
           <h1 style={{ fontFamily: "'Spectral', serif", fontSize: 'clamp(56px, 7vw, 104px)', fontWeight: 300, lineHeight: 0.97, color: '#1A1108', marginBottom: '36px', letterSpacing: '-.025em' }}>
             {t.hero_h1}
           </h1>
+          <div className="hero-image-mobile" style={{ display: 'none', position: 'relative' }}>
+            <img src={timPhoto} alt="MGG Law tim" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center', display: 'block' }} />
+          </div>
           <p style={{ fontSize: '15px', lineHeight: 1.82, color: '#7A6050', maxWidth: '480px' }}>{t.hero_p}</p>
         </div>
-        <div className="hero-image" style={{ width: '540px', flexShrink: 0, background: 'linear-gradient(168deg,#BEB0A0 0%,#A89080 28%,#907A6C 58%,#AFA090 100%)', position: 'relative', overflow: 'hidden' }}>
-          <img src="/assets/IMG_0482.jpg" alt="MGG Law ured" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center', display: 'block' }} />
+        <div className="hero-image" style={{ width: 'clamp(360px, 36vw, 560px)', flexShrink: 0, background: 'linear-gradient(168deg,#BEB0A0 0%,#A89080 28%,#907A6C 58%,#AFA090 100%)', position: 'relative', overflow: 'hidden' }}>
+          <img src={timPhoto} alt="MGG Law tim" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center', display: 'block' }} />
           <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top,rgba(26,17,8,.32) 0%,transparent 55%)' }} />
           <div style={{ position: 'absolute', bottom: '28px', left: '28px' }}>
             <p style={{ fontSize: '9px', fontWeight: 600, color: 'rgba(240,234,225,.4)', letterSpacing: '.18em', textTransform: 'uppercase' }}>{t.office_tag}</p>

@@ -2,6 +2,8 @@ import { useEffect } from "react";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 import { useLang } from "../context/LangContext";
+import PhotoMarquee from "../components/PhotoMarquee";
+import { heroPhoto, aboutPhoto, galleryPhotos } from "../data/groupPhotos";
 
 export default function Home() {
   const { tr, lang } = useLang();
@@ -24,7 +26,11 @@ export default function Home() {
       {/* HERO */}
       <section
         className="hero"
-        style={{ display: "flex", minHeight: "700px", background: "#F0EAE1" }}
+        style={{
+          display: "flex",
+          minHeight: "clamp(600px, 60vw, 930px)",
+          background: "#F0EAE1",
+        }}
       >
         <div
           className="hero-content"
@@ -50,9 +56,12 @@ export default function Home() {
           >
             {h.hero_h1}
           </h1>
-          <div className="hero-image-mobile" style={{ display: "none" }}>
+          <div
+            className="hero-image-mobile"
+            style={{ display: "none", position: "relative" }}
+          >
             <img
-              src="/assets/DSC_0297.jpg"
+              src={heroPhoto}
               alt="MGG Law tim"
               style={{
                 width: "100%",
@@ -123,10 +132,15 @@ export default function Home() {
         </div>
         <div
           className="hero-image"
-          style={{ flex: 1.4, position: "relative", overflow: "hidden" }}
+          style={{
+            width: "clamp(400px, 40vw, 620px)",
+            flexShrink: 0,
+            position: "relative",
+            overflow: "hidden",
+          }}
         >
           <img
-            src="/assets/DSC_0297.jpg"
+            src={heroPhoto}
             alt="MGG Law tim"
             style={{
               width: "100%",
@@ -335,7 +349,7 @@ export default function Home() {
           <div
             className="about-sidebar"
             style={{
-              width: "352px",
+              width: "440px",
               flexShrink: 0,
               display: "flex",
               flexDirection: "column",
@@ -343,20 +357,20 @@ export default function Home() {
           >
             <div
               style={{
-                height: "420px",
+                height: "330px",
                 marginBottom: "44px",
                 position: "relative",
                 overflow: "hidden",
               }}
             >
               <img
-                src="/assets/IMG_0475.jpg"
-                alt="MGG Law ured"
+                src={aboutPhoto}
+                alt="MGG Law tim"
                 style={{
                   width: "100%",
                   height: "100%",
                   objectFit: "cover",
-                  objectPosition: "center 15%",
+                  objectPosition: "center center",
                   display: "block",
                 }}
               />
@@ -434,6 +448,46 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </section>
+
+      {/* GALLERY */}
+      <section
+        className="gallery-section"
+        style={{ background: "#F0EAE1", padding: "88px 0" }}
+      >
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            gap: "24px",
+            padding: "0 68px",
+            marginBottom: "44px",
+          }}
+        >
+          <span
+            style={{
+              fontSize: "9px",
+              fontWeight: 700,
+              letterSpacing: ".26em",
+              textTransform: "uppercase",
+              color: "#8B3A2A",
+              whiteSpace: "nowrap",
+            }}
+          >
+            {h.gallery_label}
+          </span>
+          <div style={{ flex: 1, height: "1px", background: "#CDBFAF" }} />
+        </div>
+        <PhotoMarquee
+          photos={galleryPhotos}
+          alt="MGG Law tim"
+          labels={{
+            label: h.gallery_label,
+            prev: h.gallery_prev,
+            next: h.gallery_next,
+            close: h.gallery_close,
+          }}
+        />
       </section>
 
       {/* CONTACT */}

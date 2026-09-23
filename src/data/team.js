@@ -3,7 +3,7 @@ export const team = {
     {
       name: 'dr. sc. Sandra Marković',
       initials: 'SM',
-      role: 'Odvjetnica – Partner',
+      role: 'Odvjetnica – Partnerica – Osnivačica',
       specialty: 'Ustavnosudski i konvencijski postupci, zaštita ljudskih prava',
       shortBio: 'Dr. sc. Sandra Marković specijalizirana je za pitanja ustavnog i javnog prava te zaštitu temeljnih prava i sloboda, sa zastupanjem pred Ustavnim sudom, drugim tijelima javne vlasti i Europskim sudom za ljudska prava. Njezin pristup spaja duboko poznavanje domaćeg pravnog poretka s praćenjem prakse međunarodnih sudova, uz poseban naglasak na praksu ESLJP-a.',
       bio: [
@@ -56,7 +56,7 @@ export const team = {
     {
       name: 'Sidonija Grbavac',
       initials: 'SG',
-      role: 'Odvjetnica – Partner',
+      role: 'Odvjetnica – Partnerica – Osnivačica',
       specialty: 'Građansko, obiteljsko i odštetno pravo',
       shortBio: 'Sidonija Grbavac odvjetnica je s dugogodišnjim iskustvom u parničnom postupku. Klijentima pruža pouzdano zastupanje u građanskim sporovima, obiteljskopravnim postupcima te predmetima naknade štete, a iskustvo iz sudnice donosi jasnoću i realna očekivanja u svakoj fazi postupka.',
       bio: [
@@ -86,13 +86,12 @@ export const team = {
       languages: 'hrvatski, engleski',
       cardBg: 'linear-gradient(155deg,#BCBAB8 0%,#9E9C9A 100%)',
       photoBg: 'linear-gradient(160deg,#BCBAB8 0%,#9E9C9A 100%)',
-      photo: '/assets/sidonija.png',
-      photoPosition: 'center 20%',
+      photo: '/assets/sidonija.jpg',
     },
     {
       name: 'dr. sc. Dino Gliha',
       initials: 'DG',
-      role: 'Odvjetnik – Partner',
+      role: 'Odvjetnik – Partner – Osnivač',
       specialty: 'Prava intelektualnog vlasništva i korporativno pravo',
       shortBio: 'dr. sc. Dino Gliha specijaliziran je za prava intelektualnog vlasništva, područje koje zahtijeva razumijevanje pravnih, poslovnih i tehnoloških dimenzija inovacije. Njegova ekspertiza obuhvaća autorsko pravo, patente, žigove te druge oblike prava intelektualnog vlasništva, kao i strateško korporativno-pravno savjetovanje u razvoju poslovanja i licenciranju u digitalnom i tradicionalnom okruženju.',
       bio: [
@@ -181,6 +180,38 @@ export const team = {
       photo: '/assets/domagoj.jpg',
     },
     {
+      name: 'David Adesola Bankole',
+      initials: 'DB',
+      role: 'Odvjetnik',
+      specialty: 'Zaštita ljudskih prava, ustavno i konvencijsko pravo, obiteljsko i građansko pravo',
+      shortBio: 'David Adesola Bankole odvjetnik je s više od devet godina profesionalnog iskustva, usmjeren na zaštitu ljudskih prava, ustavno i konvencijsko pravo te obiteljsko i građansko pravo.',
+      bio: [
+        'David Adesola Bankole odvjetnik je s više od devet godina profesionalnog iskustva, usmjeren na zaštitu ljudskih prava, ustavno i konvencijsko pravo te obiteljsko i građansko pravo.',
+        'Prije pridruživanja MGG LAW uredu radio je u Uredu zastupnika Republike Hrvatske pred Europskim sudom za ljudska prava. U svojem se radu osobito bavio analizom prakse Europskog suda za ljudska prava i drugih međunarodnih sudova i tijela u području ljudskih prava te njezinim utjecajem na propise i postupanje nacionalnih tijela i sudova. Kao savjetnik hrvatske delegacije sudjelovao je na javnoj raspravi pred Velikim vijećem Europskog suda za ljudska prava u predmetu Duarte Agostinho i drugi protiv Portugala i 32 druge države.',
+        'Praktično iskustvo prethodno je stjecao kao odvjetnički vježbenik, radeći na građanskim, trgovačkim i drugim predmetima te zastupajući stranke pred sudovima i drugim nadležnim tijelima.',
+        'Od 2025. vanjski je suradnik Katedre za obiteljsko pravo Pravnog fakulteta Sveučilišta u Zagrebu, gdje sudjeluje u izvođenju seminarske nastave. Polaznik je poslijediplomskog doktorskog studija iz građanskopravnih i obiteljskopravnih znanosti, a područjima svojeg profesionalnog interesa bavi se i kroz stručne radove, međunarodna izlaganja i edukativne aktivnosti.',
+      ],
+      works: [],
+      career: [
+        { years: '2026. – nadalje', position: 'Zajednički odvjetnički ured dr. sc. Sandra Marković, Sidonija Grbavac i dr. sc. Dino Gliha – odvjetnik' },
+        { years: '2020. – 2026.', position: 'Ured zastupnika Republike Hrvatske pred Europskim sudom za ljudska prava – stručni suradnik, niži savjetnik i savjetnik zastupnice' },
+        { years: '2017. – 2018.', position: 'Odvjetnički ured Igor Mucalo – odvjetnički vježbenik' },
+        { years: '2015. – 2017.', position: 'Odvjetnički ured Melita Veršić Marušić – odvjetnički vježbenik' },
+      ],
+      education: [
+        'Sveučilište u Zagrebu, Pravni fakultet – poslijediplomski doktorski studij iz građanskopravnih i obiteljskopravnih znanosti',
+        'Ministarstvo pravosuđa – pravosudni ispit',
+        'Sveučilište u Zagrebu, Pravni fakultet – integrirani preddiplomski i diplomski studij prava (mag. iur.); tema diplomskog rada: „Odgovornost za neispravnost generičkih lijekova propisanih na recept – poredbenopravna analiza SAD-a i Hrvatske"',
+      ],
+      memberships: [
+        'Hrvatska odvjetnička komora',
+      ],
+      languages: 'hrvatski, engleski, njemački',
+      cardBg: 'linear-gradient(155deg,#C0BAB4 0%,#A6A09A 100%)',
+      photoBg: 'linear-gradient(160deg,#C0BAB4 0%,#A6A09A 100%)',
+      photo: '/assets/david.jpg',
+    },
+    {
       name: 'Sanja Kodrnja',
       initials: 'SK',
       role: 'Odvjetnica',
@@ -211,9 +242,9 @@ export const team = {
     {
       name: 'Ana Žagar',
       initials: 'AŽ',
-      role: 'Odvjetnička vježbenica s položenim pravosudnim ispitom',
+      role: 'Odvjetnica',
       specialty: 'Ljudska prava i pravo EU',
-      shortBio: 'Ana je odvjetnička vježbenica u Zajedničkom odvjetničkom uredu dr. sc. Sandra Marković, Sidonija Grbavac i dr. sc. Dino Gliha.',
+      shortBio: 'Ana je odvjetnica u Zajedničkom odvjetničkom uredu dr. sc. Sandra Marković, Sidonija Grbavac i dr. sc. Dino Gliha.',
       bio: [
         'Ana Žagar diplomirala je na Pravnom fakultetu Sveučilišta u Zagrebu u travnju 2023. godine s temom diplomskog rada „Upotreba tradicionalnih pravnih argumenata za opravdanje tumačenja i primjene članka 8. Europske konvencije za zaštitu ljudskih prava i temeljnih sloboda u praksi Europskog suda za ljudska prava".',
         'Zajedničkom odvjetničkom uredu dr. sc. Sandra Marković, Sidonija Grbavac i dr. sc. Dino Gliha pridružila se u srpnju 2023. na poziciji odvjetničke vježbenice. Položila je pravosudni ispit u svibnju 2025.',
@@ -245,7 +276,7 @@ export const team = {
     {
       name: 'dr. sc. Sandra Marković',
       initials: 'SM',
-      role: 'Attorney – Partner',
+      role: 'Attorney – Partner – Founder',
       specialty: 'Constitutional and Convention Proceedings, Human Rights Protection',
       shortBio: 'Dr. sc. Sandra Marković specialises in matters of constitutional and public law and the protection of fundamental rights and freedoms, representing clients before the Constitutional Court, other public authorities and the European Court of Human Rights. Her approach combines a deep knowledge of the domestic legal order with close attention to the case law of international courts, with particular emphasis on the practice of the ECtHR.',
       bio: [
@@ -298,7 +329,7 @@ export const team = {
     {
       name: 'Sidonija Grbavac',
       initials: 'SG',
-      role: 'Attorney – Partner',
+      role: 'Attorney – Partner – Founder',
       specialty: 'Civil, Family and Tort Law',
       shortBio: 'Sidonija Grbavac is an attorney with many years of experience in litigation. She provides clients with reliable representation in civil disputes, family-law proceedings and damages claims, and her courtroom experience brings clarity and realistic expectations at every stage of the proceedings.',
       bio: [
@@ -328,13 +359,12 @@ export const team = {
       languages: 'Croatian, English',
       cardBg: 'linear-gradient(155deg,#BCBAB8 0%,#9E9C9A 100%)',
       photoBg: 'linear-gradient(160deg,#BCBAB8 0%,#9E9C9A 100%)',
-      photo: '/assets/sidonija.png',
-      photoPosition: 'center 20%',
+      photo: '/assets/sidonija.jpg',
     },
     {
       name: 'dr. sc. Dino Gliha',
       initials: 'DG',
-      role: 'Attorney – Partner',
+      role: 'Attorney – Partner – Founder',
       specialty: 'Intellectual Property and Corporate Law',
       shortBio: 'Dr. sc. Dino Gliha specialises in intellectual property rights, a field that demands an understanding of the legal, business and technological dimensions of innovation. His expertise encompasses copyright, patents, trademarks and other forms of intellectual property, as well as strategic corporate-law advice in business development and licensing across digital and traditional environments.',
       bio: [
@@ -423,6 +453,38 @@ export const team = {
       photo: '/assets/domagoj.jpg',
     },
     {
+      name: 'David Adesola Bankole',
+      initials: 'DB',
+      role: 'Attorney',
+      specialty: 'Human Rights Protection, Constitutional and Convention Law, Family and Civil Law',
+      shortBio: 'David Adesola Bankole is an attorney with more than nine years of professional experience, focused on the protection of human rights, constitutional and convention law, and family and civil law.',
+      bio: [
+        'David Adesola Bankole is an attorney with more than nine years of professional experience, focused on the protection of human rights, constitutional and convention law, and family and civil law.',
+        'Before joining MGG LAW, he worked at the Office of the Agent of the Republic of Croatia before the European Court of Human Rights. His work focused in particular on the analysis of the case law of the European Court of Human Rights and of other international courts and bodies in the field of human rights, and its impact on legislation and on the conduct of national authorities and courts. As an adviser to the Croatian delegation, he took part in the public hearing before the Grand Chamber of the European Court of Human Rights in the case of Duarte Agostinho and Others v. Portugal and 32 Other States.',
+        'He previously gained practical experience as a trainee lawyer, working on civil, commercial and other matters and representing clients before the courts and other competent authorities.',
+        'Since 2025 he has been an external associate at the Chair of Family Law of the Faculty of Law, University of Zagreb, where he takes part in seminar teaching. He is enrolled in the postgraduate doctoral programme in civil law and family law sciences, and pursues his areas of professional interest through scholarly papers, international presentations and educational activities.',
+      ],
+      works: [],
+      career: [
+        { years: '2026 – present', position: 'Joint Law Office of dr. sc. Sandra Marković, Sidonija Grbavac and dr. sc. Dino Gliha – attorney' },
+        { years: '2020 – 2026', position: 'Office of the Agent of the Republic of Croatia before the European Court of Human Rights – expert associate, junior adviser and adviser to the Agent' },
+        { years: '2017 – 2018', position: 'Law Office Igor Mucalo – trainee lawyer' },
+        { years: '2015 – 2017', position: 'Law Office Melita Veršić Marušić – trainee lawyer' },
+      ],
+      education: [
+        'University of Zagreb, Faculty of Law – postgraduate doctoral programme in civil law and family law sciences',
+        'Ministry of Justice – bar examination',
+        'University of Zagreb, Faculty of Law – integrated undergraduate and graduate law programme (mag. iur.); thesis: "Liability for Defective Generic Prescription Medicines – A Comparative Legal Analysis of the USA and Croatia"',
+      ],
+      memberships: [
+        'Croatian Bar Association',
+      ],
+      languages: 'Croatian, English, German',
+      cardBg: 'linear-gradient(155deg,#C0BAB4 0%,#A6A09A 100%)',
+      photoBg: 'linear-gradient(160deg,#C0BAB4 0%,#A6A09A 100%)',
+      photo: '/assets/david.jpg',
+    },
+    {
       name: 'Sanja Kodrnja',
       initials: 'SK',
       role: 'Attorney',
@@ -453,9 +515,9 @@ export const team = {
     {
       name: 'Ana Žagar',
       initials: 'AŽ',
-      role: 'Trainee Lawyer – Bar Exam Passed',
+      role: 'Attorney',
       specialty: 'Human Rights and EU Law',
-      shortBio: 'Ana is a trainee lawyer at the Joint Law Office of dr. sc. Sandra Marković, Sidonija Grbavac and dr. sc. Dino Gliha.',
+      shortBio: 'Ana is an attorney at the Joint Law Office of dr. sc. Sandra Marković, Sidonija Grbavac and dr. sc. Dino Gliha.',
       bio: [
         'Ana Žagar graduated from the Faculty of Law, University of Zagreb, in April 2023, with a thesis entitled "The Use of Traditional Legal Arguments to Justify the Interpretation and Application of Article 8 of the European Convention on Human Rights and Fundamental Freedoms in the Case Law of the European Court of Human Rights".',
         'She joined the Joint Law Office of dr. sc. Sandra Marković, Sidonija Grbavac and dr. sc. Dino Gliha in July 2023 in the position of trainee lawyer. She passed the bar examination in May 2025.',
