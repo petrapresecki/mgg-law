@@ -21,8 +21,26 @@ export default function PhotoMarquee({ photos, alt, labels, speed = 42, height =
   const paused = useRef(false);
   const inView = useRef(true);
   const [index, setIndex] = useState(null);
+  const [copies, setCopies] = useState(2);
 
-  const track = [...photos, ...photos];
+  const track = Array.from({ length: copies }, () => photos).flat();
+
+  // A short selection may not span a wide screen twice over, which would leave
+  // a visible gap at the loop point. Repeat the list until it comfortably does.
+  useEffect(() => {
+    const el = scroller.current;
+    if (!el) return;
+    const fit = () => {
+      const one = el.scrollWidth / copies;
+      if (!one) return;
+      const need = Math.max(2, Math.ceil((el.clientWidth * 2) / one));
+      if (need !== copies) setCopies(need);
+    };
+    fit();
+    const ro = new ResizeObserver(fit);
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, [copies, photos]);
 
   // Auto-drift plus the seamless wrap. Runs every frame so the wrap applies to
   // user scrolling too, but only advances when nothing else is going on.
@@ -36,19 +54,19 @@ export default function PhotoMarquee({ photos, alt, labels, speed = 42, height =
     const tick = (now) => {
       const dt = Math.min(now - last, 100) / 1000;
       last = now;
-      const half = el.scrollWidth / 2;
-      if (half > 0) {
+      const seg = el.scrollWidth / copies;
+      if (seg > 0) {
         const idle =
           !reduce && !paused.current && inView.current && index === null && !drag.current;
         if (idle) el.scrollLeft += speed * dt;
-        if (el.scrollLeft >= half) el.scrollLeft -= half;
-        else if (el.scrollLeft <= 0) el.scrollLeft += half;
+        if (el.scrollLeft >= seg) el.scrollLeft -= seg;
+        else if (el.scrollLeft <= 0) el.scrollLeft += seg;
       }
       raf = requestAnimationFrame(tick);
     };
     raf = requestAnimationFrame(tick);
     return () => cancelAnimationFrame(raf);
-  }, [speed, index]);
+  }, [speed, index, copies]);
 
   // Don't animate a strip nobody is looking at
   useEffect(() => {
@@ -183,6 +201,8 @@ export default function PhotoMarquee({ photos, alt, labels, speed = 42, height =
               <img
                 key={i}
                 src={photo.thumb}
+                width={photo.w}
+                height={photo.h}
                 alt={i < photos.length ? alt : ""}
                 aria-hidden={i >= photos.length}
                 loading="lazy"
