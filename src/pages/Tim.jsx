@@ -32,7 +32,7 @@ function PersonOverlay({ member, onClose, tr }) {
           <div className="overlay-photo" style={{ width: '200px', flexShrink: 0 }}>
             <div className="overlay-photo-img" style={{ width: '200px', height: '256px', position: 'relative', overflow: 'hidden', background: member.photoBg }}>
               {member.photo && (
-                <img src={member.photo} alt={member.name} style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: member.photoPosition || 'center top', display: 'block' }} />
+                <img src={member.photoOverlay ? `${member.photoOverlay}-200.jpg` : member.photo} srcSet={member.photoOverlay ? `${member.photoOverlay}-200.jpg 1x, ${member.photoOverlay}-400.jpg 2x` : undefined} alt={member.name} style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: member.photoPosition || 'center top', display: 'block' }} />
               )}
             </div>
             <p style={{ fontSize: '8px', fontWeight: 600, color: '#CDBFAF', letterSpacing: '.16em', textTransform: 'uppercase', marginTop: '10px' }}>MGG · Zagreb</p>

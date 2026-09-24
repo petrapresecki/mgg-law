@@ -87,6 +87,10 @@ export const team = {
       cardBg: 'linear-gradient(155deg,#BCBAB8 0%,#9E9C9A 100%)',
       photoBg: 'linear-gradient(160deg,#BCBAB8 0%,#9E9C9A 100%)',
       photo: '/assets/sidonija.jpg',
+      // Her houndstooth moires when the browser squashes the full-size
+      // file into the 200x256 profile box, so that box gets exact-size
+      // images instead. Nobody else needs this.
+      photoOverlay: '/assets/sidonija-ov',
     },
     {
       name: 'dr. sc. Dino Gliha',
@@ -360,6 +364,10 @@ export const team = {
       cardBg: 'linear-gradient(155deg,#BCBAB8 0%,#9E9C9A 100%)',
       photoBg: 'linear-gradient(160deg,#BCBAB8 0%,#9E9C9A 100%)',
       photo: '/assets/sidonija.jpg',
+      // Her houndstooth moires when the browser squashes the full-size
+      // file into the 200x256 profile box, so that box gets exact-size
+      // images instead. Nobody else needs this.
+      photoOverlay: '/assets/sidonija-ov',
     },
     {
       name: 'dr. sc. Dino Gliha',
