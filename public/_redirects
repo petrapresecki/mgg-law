@@ -1,0 +1,3 @@
+# SPA fallback for Netlify previews. Production runs on Apache/cPanel, which
+# uses public/.htaccess for the same thing and ignores this file.
+/*  /index.html  200
